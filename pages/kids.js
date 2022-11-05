@@ -1,23 +1,23 @@
 import React from 'react';
 
 import { client } from '../lib/client';
-import { Product} from '../components';
+import { Kids} from '../components';
 
-const Home = ({ products }) => (
+const Kid = ({ products}) => (
   <div>
     <div className="products-heading">
       <h3>Category name</h3>
     </div>
 
     <div className="products-container">
-      {products?.map((product) => <Product key={product._id} product={product} />)}
+      {products?.map((product) => <Kids key={product._id} product={product} />)}
     </div>
 
   </div>
 );
 
 export const getServerSideProps = async () => {
-  const query = '*[_type == "product"]';
+  const query = '*[_type == "kids"]';
   const products = await client.fetch(query);
 
   const bannerQuery = '*[_type == "banner"]';
@@ -28,4 +28,4 @@ export const getServerSideProps = async () => {
   }
 }
 
-export default Home;
+export default Kid;
