@@ -13,8 +13,8 @@ const Men = ({ product: { image, name, slug, price } }) => {
         <div className="product-card">
           <img 
             src={urlFor(image && image[0])}
-            width={350}
-            height={350}
+            width={300}
+            height={300}
             className="product-image"
           />
           <Badge className='cart' badgeContent={0} color="success">
