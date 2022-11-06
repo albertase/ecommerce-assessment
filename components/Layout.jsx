@@ -1,7 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
 
-import image from '../public/kid1.jpg'
 
 import Navbar from './Navbar';
 
