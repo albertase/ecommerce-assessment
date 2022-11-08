@@ -100,17 +100,18 @@ width: 100%;
 
 
 .navbar-btn {
-  background-color: #5ECE7B;
+  background: linear-gradient(316.98deg, #52D67A 16.88%, #5AEE87 84.04%);
   margin-right: 130px;
 }
 
 .navbar-btn button {
-  background-color: #5ECE7B;
+  background: linear-gradient(316.98deg, #52D67A 16.88%, #5AEE87 84.04%);
   padding: 7px;
   font-size: 1.5rem;
   color: white;
   top:0;
   border: none;
+  
 }
 
 .cart-icon{
