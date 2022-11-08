@@ -17,7 +17,7 @@ const Colors = () => {
   }
   return (
     <div className="color-container">
-        <h3>Colors</h3>
+        <h3>COLORS</h3>
       <div className="colors">
         <button onClick={handleMark} className="color1">{mark}</button>
         <button onClick={handleMark2} className="color2">{mark2}</button>

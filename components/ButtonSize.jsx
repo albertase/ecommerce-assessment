@@ -24,7 +24,7 @@ const ButtonSize = () => {
   }
   return (
     <div>
-        <h3 className="sizes-text">Sizes</h3>
+        <h3 className="sizes-text">SIZES</h3>
           <div className="sizes">
             <button className={`${size && 'size-active'}`} onClick={handleSize1}>XM</button>
             <button className={`${size2 && 'size-active'}`} onClick={handleSize2}>S</button>
